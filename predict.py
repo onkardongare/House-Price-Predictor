@@ -1,13 +1,8 @@
-"""
-Interactive House Price Prediction
-Run this script after training the model to make predictions
-"""
 
 from predictor import predict_price
 
 
 def get_user_input():
-    """Get house features from user"""
     print("\n=== House Price Predictor ===")
     print("Enter the following features:\n")
     
